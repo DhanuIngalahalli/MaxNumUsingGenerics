@@ -8,7 +8,8 @@ namespace MaxNumGeneric
         {
             Console.WriteLine("Welcome to Generic Program");
             Console.WriteLine("Maximum Number is :");
-            int output = MaximumNumber.MaximumInteger(90, 80, 30);//calling method
+            int output = MaximumNumber.MaximumInteger(90, 80, 30);// calling method for integer
+            double doubleoutput = MaximumNumber.MaximumFloat(30.23, 42.43, 53.22); //calling method for float
             Console.WriteLine(output);
         }
     }

@@ -21,7 +21,7 @@ namespace MaxNumGeneric
             {
                 return thirdValue;
             }
-            throw new Exception("firstNumber,secondNumber and thirdNumber are same");
+            return firstvalue;
         }
         public static double MaximumFloat(double firstValue, double secondValue, double thirdValue)
         {
@@ -37,7 +37,7 @@ namespace MaxNumGeneric
             {
                 return thirdValue;
             }
-            throw new Exception("firstNumber,secondNumber and thirdNumber are same");
+            return firstvalue;
         }
         public static string MaximumString(string firstString, string secondString, string thirdString)
         {
@@ -62,7 +62,7 @@ namespace MaxNumGeneric
                 return thirdString;
             }
 
-            throw new Exception("firstNumber,secondNumber and thirdNumber are same");
+            return firstString;
         }
 
 
